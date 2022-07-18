@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">Home</a></li>
+                    <li class="header__item"><a href="#about" class="header__link">About me</a></li>
+                    <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
+                    <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
+                    <li class="header__item"><a href="#contacts" class="header__link">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="about">
+                <div class="about__title">
+                    <h1 class="about__title-name">Denis<br>Novik</h1>
+                </div>
+                <div class="about__description">
+                    UX <span>|</span> UI designer<br>24 years old, Minsk
+                </div>
+                <div class="about__language"><a href="#" class="russian">RU</a> <span>|</span> <a href="#"
+                        class="english __active-link">ENG</a></div>
+            </section>
+            <div class="about__photo">
+                <img src="img/photos/photo.jpg" alt="Фотография">
+            </div>
+            <a href="" class="heart"><span class="counter">0</span></a>
+        </div>
+        <section class="about__me" id="about">
+            <div class="container">
+                <h2 class="about__me-title">About me</h2>
+                <div class="about__me-text">
+                    <p class="about__me-desc">Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                        I'm interested in design and everything connected with it.</p>
+
+                    <p class="about__me-desc">I'm studying at courses "Web and mobile design<br>
+                        interfaces" in IT-Academy.</p>
+
+                    <p class="about__me-desc">Ready to implement excellent projects<br>
+                        with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills__title">Skills</h2>
+                <div class="skills__text">I work in such programs as</div>
+                <div class="skills__items">
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img src="img/skills/ps.png" alt="Фотошоп">
+                            <span>Adobe Photoshop</span>
+                            <img class="rating" src="img/skills/rate.png" alt="Рейтинг">
+                        </li>
+                        <li class="skills__item">
+                            <img src="img/skills/ai.png" alt="Иллюстратор">
+                            <span>Adobe Illustrator</span>
+                            <img class="rating" src="img/skills/rate.png" alt="Рейтинг">
+                        </li>
+                        <li class="skills__item">
+                            <img src="img/skills/ae.png" alt="Афтер эффектс">
+                            <span>Adobe After Effects</span>
+                            <img class="rating" src="img/skills/rate.png" alt="Рейтинг">
+                        </li>
+                        <li class="skills__item">
+                            <img src="img/skills/figma.png" alt="Фигма" width="59">
+                            <span>Figma</span>
+                            <img class="rating" src="img/skills/rate.png" alt="Рейтинг">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">Portfolio</h2>
+                <div class="portfolio__item">
+                    <img src="img/portfolio/01.jpg" alt="" class="portfolio__pic">
+                    <div class="portfolio__link">
+                        <a href="#">Online fashion store - Homepage</a>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="img/portfolio/02.jpg" alt="" class="portfolio__pic">
+                    <div class="portfolio__link">
+                        <a href="#">Reebok Store - Concept</a>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <img src="img/portfolio/03.jpg" alt="" class="portfolio__pic">
+                    <div class="portfolio__link">
+                        <a href="#">Braun Landing Page - Concept</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="contacts" id="contacts">
+                    <div class="contacts__title">Contacts</div>
+                    <div class="contacts__text">
+                        Want to know more or just chat?<br>
+                        You are welcome!
+                    </div>
+                    <div class="contacts__button">
+                        <button class="send">Send Message</button>
+                    </div>
+                    <div class="contacts__social">
+                        <a href="#"><img src="img/social-icons/linkedin.svg" alt="Social" class="social__link"></a>
+                        <a href="#"><img src="img/social-icons/instagram.svg" alt="Social" class="social__link"></a>
+                        <a href="#"><img src="img/social-icons/behance.svg" alt="Social" class="social__link"></a>
+                        <a href="#"><img src="img/social-icons/dribble.svg" alt="Social" class="social__link"></a>
+                    </div>
+                    <div class="contacts__social-text">
+                        Like me on<br>LinkedIn, Instagram, Behance, Dribble
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
